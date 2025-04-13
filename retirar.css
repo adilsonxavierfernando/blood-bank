@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f0f0f0;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.admin-dashboard {
+    display: grid;
+    grid-template-columns: 250px auto;
+    min-height: 100vh;
+}
+
+.sidebar {
+    background-color: #D11A1A;
+    padding: 20px;
+    color: #fff;
+}
+
+.sidebar h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.menu {
+    list-style: none;
+}
+
+.menu li {
+    margin: 15px 0;
+}
+
+.menu a {
+    color: #b0b0b0;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.menu a:hover {
+    background-color: #8f1a1a;
+    color: white;
+}
+
+.menu a i {
+    margin-right: 10px;
+}
+
+.btn {
+    background-color: #D11A1A;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background-color: #8f1a1a;
+}
+
+.content {
+    background: url('uploads/slider2.jpg') no-repeat center center/cover;
+    background-color: rgba(255, 255, 255, 0.8);
+    background-blend-mode: lighten;
+    padding: 30px;
+}
+
+.content h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #f9f9f9;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #D11A1A;
+    color: white;
+}
+
+.chart-container {
+    width: 30%;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+.chart {
+    display: flex;
+    text-align: center;
+}
+
+.modal-content {
+    border-radius: 10px;
+}
+
+.modal-header {
+    background-color: #D11A1A;
+    color: white;
+    border-radius: 9px 9px 0 0;
+}
+
+.modal-footer {
+    background-color: #f8f9fa;
+}
+
+.form-label {
+    font-weight: 600;
+    color: #333;
+}

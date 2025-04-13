@@ -1,0 +1,102 @@
+
+body {
+    font-family: 'Aptos', sans-serif;
+    margin: 0;
+    padding: 0;
+  
+    color: #333;
+}
+
+
+
+.edit-profile-container {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.edit-profile-container h2 {
+    font-size: 32px;
+    color: #D11A1A;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-sections {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.profile-section {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.profile-section h3 {
+    font-size: 24px;
+    color: #D11A1A;
+    margin-bottom: 15px;
+}
+
+.profile-section label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.profile-section input,
+.profile-section select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.profile-section button {
+    background-color: #D11A1A;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.profile-section button:hover {
+    background-color: #9e0c0c;
+}
+
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.alert.success {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.alert.error {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+
+@media (max-width: 768px) {
+    .profile-sections {
+        flex-direction: column;
+    }
+
+    .profile-section {
+        width: 100%;
+    }
+}
